@@ -1,3 +1,31 @@
+body {
+    background-color: rgb(255,0,255)
+}
+h1 {
+    font-family: Jabin-Typeface;
+    font-size: 50pt;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(255,255,0)
+}
+.desc-wrapper {
+    width: 25%;
+    margin-left: 250px;
+    margin-top: 150px;
+    color: rgb(255,255,0)
+}
+h5 {
+font-family: 'Helvetica';
+font-style:normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 35px;
+
+color: #FFFF00;
+
+
+}
 h2{
     color:red;
 }
