@@ -8,6 +8,13 @@
 body {
     background-color: rgb(255,0,255)
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 3px;
+}
 h1 {
     font-family: Jabin-Typeface;
     font-size: 50pt;
