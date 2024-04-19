@@ -1,3 +1,108 @@
+@font-face{
+    src: url("Jabin-Typeface.woff2") format("woff2");
+    font-family: 'Jabin-Typeface';
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: #E600E6;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    height: min-content;
+    line-height: 1;
+    
+}
+h1 {
+    font-family: Jabin-Typeface;
+    font-size: 50pt;
+    font-weight: 50;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(255,255,0);
+    animation: weightChange 7s infinite; 
+}
+.desc-wrapper {
+    width: 80%;
+    color: rgb(255,255,0);
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+    grid-gap: 30px;
+    grid-template-areas: 
+    "w z";
+} 
+
+.paragraph1{
+    grid-area: w;
+}
+
+.paragraph2{
+    grid-area: z;
+}
+
+
+h5 {
+font-family: 'Helvetica';
+font-style:normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 35px;
+
+color: #FFFF00;
+
+
+}
 h2{
-    color:red;
+    color: #E600E6;
+    background-color: #FFFF00;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* font-family: Jabin-Typeface; */
+}
+
+@keyframes weightChange {
+    0%, 100%{
+        font-variation-settings: "wght" 50, "XXXX" 1;
+    }
+    50%{font-variation-settings: "wght" 120, "XXXX" 100;
+    }
+}
+
+.list{
+    font-family: 'Helvetica';
+font-style:normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 35px;
+color: #FFFF00;
+}
+a{
+    color: #FFFF00;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    font-size: 17px;
+}
+
+.r{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+h3{
+    font-size: 25px;
 }
