@@ -19,10 +19,17 @@ h1 {
 }
 .desc-wrapper {
     width: 25%;
-    margin-left: 250px;
-    margin-top: 150px;
-    color: rgb(255,255,0)
+    color: rgb(255,255,0);
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.paragraph1{
 }
+
+.paragraph2{
+}
+
 h5 {
 font-family: 'Helvetica';
 font-style:normal;
@@ -35,7 +42,8 @@ color: #FFFF00;
 
 }
 h2{
-    color:red;
+    color: rgb(255,0,255);
+    background-color: #FFFF00;
 }
 
 @keyframes weightChange {
@@ -44,4 +52,19 @@ h2{
     }
     50%{font-variation-settings: "wght" 120, "XXXX" 100;
     }
+}
+
+.list{
+    font-family: 'Helvetica';
+font-style:normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 35px;
+color: #FFFF00;
+}
+a{
+    color: #FFFF00;
+}
+a:hover{
+    font-size: 17px;
 }
