@@ -10,10 +10,13 @@ body {
 }
 
 .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 50px;
     
 }
 h1 {
@@ -26,7 +29,7 @@ h1 {
     animation: weightChange 7s infinite; 
 }
 .desc-wrapper {
-    width: 90%;
+    width: 80%;
     color: rgb(255,255,0);
     margin-left: auto;
     margin-right: auto;
