@@ -1,13 +1,21 @@
+@font-face{
+    src: url("Jabin-Typeface.woff2") format("woff2");
+    font-family: 'Jabin-Typeface';
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
     background-color: rgb(255,0,255)
 }
 h1 {
     font-family: Jabin-Typeface;
     font-size: 50pt;
-    font-weight: 200;
+    font-weight: 50;
     text-align: center;
     margin-top: 100px;
-    color: rgb(255,255,0)
+    color: rgb(255,255,0);
+    animation: weightChange 7s infinite; 
 }
 .desc-wrapper {
     width: 25%;
@@ -28,4 +36,12 @@ color: #FFFF00;
 }
 h2{
     color:red;
+}
+
+@keyframes weightChange {
+    0%, 100%{
+        font-variation-settings: "wght" 50, "XXXX" 1;
+    }
+    50%{font-variation-settings: "wght" 120, "XXXX" 100;
+    }
 }
