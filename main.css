@@ -37,8 +37,8 @@ h1 {
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
-    grid-gap: 30px;
+    grid-template-rows: auto;
+    grid-gap: 50px;
     grid-template-areas: 
     "w z";
 } 
@@ -73,6 +73,11 @@ h2{
     /* font-family: Jabin-Typeface; */
 }
 
+h4{
+    font-size: 16.5px;
+    letter-spacing: .2px;
+}
+
 @keyframes weightChange {
     0%, 100%{
         font-variation-settings: "wght" 50, "XXXX" 1;
@@ -95,7 +100,7 @@ a{
 }
 a:hover{
     color: white;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 
 .r{
@@ -105,4 +110,5 @@ a:hover{
 }
 h3{
     font-size: 25px;
+    letter-spacing: .2px;
 }
