@@ -4,6 +4,12 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    src: url("Jost-VF.woff2") format("woff2");
+    font-family: 'Jost-VF';
+    font-style: normal;
+    font-weight: normal;
+}
 
 body {
     background-color: #E600E6;
@@ -54,7 +60,6 @@ h1 {
 
 h5 {
 font-family: 'Helvetica';
-font-style:normal;
 font-weight: 100;
 font-size: 25px;
 line-height: 35px;
@@ -74,8 +79,9 @@ h2{
 }
 
 h4{
+    font-family: 'Jost-VF';
     font-size: 16.5px;
-    letter-spacing: .2px;
+    letter-spacing: .3px;
 }
 
 @keyframes weightChange {
@@ -109,6 +115,7 @@ a:hover{
     grid-template-rows: auto;
 }
 h3{
+    font-family: 'Jost-VF';
     font-size: 25px;
-    letter-spacing: .2px;
+    letter-spacing: .4px;
 }
